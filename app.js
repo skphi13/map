@@ -70,13 +70,13 @@ function AppViewModel() {
     };
 
     this.initMap = function() {
-        var mapCanvas = document.getElementById('map');
+        var mapAustin = document.getElementById('map');
         var mapOptions = {
             center: new google.maps.LatLng(30.267153, -97.7430608),
             zoom: 15,
         };
         // Constructor creates a new map - only center and zoom are required.
-        map = new google.maps.Map(mapCanvas, mapOptions);
+        map = new google.maps.Map(mapAustin, mapOptions);
 
         // Set InfoWindow
         this.largeInfoWindow = new google.maps.InfoWindow();

@@ -1,6 +1,7 @@
 // Global Variables
 var map, clientID, clientSecret;
 
+// map view
 function AppViewModel() {
     var self = this;
 

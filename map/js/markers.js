@@ -12,7 +12,7 @@ var myLocations = [
         type: 'Restaurant'
     },
     {
-        title: 'Whole Foods Market',
+        title: 'Whole Foods',
         lat: 30.2706070,
         lng: -97.7532590,
         type:  'Store'
